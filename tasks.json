@@ -1,9 +1,16 @@
 [
   {
     "id": 1,
-    "description": "Complete project documentation",
-    "status": "todo",
+    "description": "take garbage out",
+    "status": "in-progress",
     "createdAt": "2026-07-09T13:21:17.136757",
-    "updatedAt": "2026-07-09T13:21:17.136757"
+    "updatedAt": "2026-07-11T14:17:57.168727"
+  },
+  {
+    "id": 2,
+    "description": "groceries",
+    "status": "todo",
+    "createdAt": "2026-07-11T14:16:42.327825",
+    "updatedAt": "2026-07-11T14:16:42.327877"
   }
 ]

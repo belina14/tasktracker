@@ -149,13 +149,13 @@ if __name__ == "__main__":
             sys.exit(1)
     elif command == "list":
         if len(sys.argv) == 2:
-        list_tasks()  
-    elif len(sys.argv) == 3:
-        status_arg = sys.argv[2]
-        if status_arg not in ["done", "todo", "in-progress"]:
-            print("Invalid status. Use 'done', 'todo', or 'in-progress'.")
-            sys.exit(1)
-        list_tasks(status_arg)
+            list_tasks()  
+        elif len(sys.argv) == 3:
+            status_arg = sys.argv[2]
+            if status_arg not in ["done", "todo", "in-progress"]:
+                print("Invalid status. Use 'done', 'todo', or 'in-progress'.")
+                sys.exit(1)
+            list_tasks(status_arg)
         else:
             print("Usage: python tasks_cli.py list [done|todo|in-progress]")
     else:
